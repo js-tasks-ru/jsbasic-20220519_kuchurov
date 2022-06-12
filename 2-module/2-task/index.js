@@ -1,3 +1,3 @@
 function isEmpty(obj) {
-  // ваш код...
+  return !Boolean(Object.keys(obj).length)
 }
